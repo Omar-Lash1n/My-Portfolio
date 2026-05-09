@@ -1,881 +1,1587 @@
+<!-- SKIP TO MAIN CONTENT -->
+<a
+  href="#main-content"
+  class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary text-white px-4 py-2 rounded-md z-50"
+>
+  Skip to main content
+</a>
 
-         <!-- SKIP TO MAIN CONTENT --> 
-        <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary text-white px-4 py-2 rounded-md z-50">
-            Skip to main content
-        </a>
+<!-- HEADER & NAVIGATION -->
+<header
+  class="fixed w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm"
+  role="banner"
+>
+  <nav class="container mx-auto px-6 py-4 site-nav">
+    <div class="flex justify-between items-center">
+      <!-- Brand/Logo -->
+      <a
+        href="#home"
+        class="nav-brand flex items-center justify-center w-12 h-12 rounded-full bg-primary hover:bg-primary-dark transition-all duration-300 hover:scale-110 shadow-md"
+        aria-label="Home"
+      >
+        <span
+          class="text-black-800 dark:text-white font-bold text-xl tracking-wider animate-fade-in"
+          >OL</span
+        >
+      </a>
 
-         <!-- HEADER & NAVIGATION --> 
-        <header class="fixed w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm" role="banner">
-        <nav class="container mx-auto px-6 py-4 site-nav">
-            <div class="flex justify-between items-center">
-                <!-- Brand/Logo -->
-                <a href="#home" class="nav-brand flex items-center justify-center w-12 h-12 rounded-full bg-primary hover:bg-primary-dark transition-all duration-300 hover:scale-110 shadow-md" aria-label="Home">
-                    <span class="text-black-800 dark:text-white font-bold text-xl tracking-wider animate-fade-in">OL</span>
-                </a>
-
-                <!-- Desktop Navigation Menu -->
-                <div class="hidden md:flex items-center gap-8">
-                    <div class="flex items-center gap-8">
-                        <a href="#home" class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full">Home</a>
-                        <a href="#about" class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full">About</a>
-                        <a href="#skills" class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full">Skills</a>
-                        <a href="#experience" class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full">Experience</a>
-                        <a href="#education" class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full">Education</a>
-                        <a href="#projects" class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full">Projects</a>
-                        <a href="#certificates" class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full">Certificates</a>
-                    </div>
-                    <a href="#contact" class="nav-contact-btn" aria-label="Contact section">Contact</a>
-                </div>
-
-                <!-- Theme Toggle Button -->
-                <div class="nav-actions">
-                <button id="theme-toggle" class="p-2 rounded-full border border-gray-300 dark:border-gray-600 focus:outline-none transition-all duration-300 hover:scale-110" aria-label="Toggle dark mode" aria-describedby="theme-toggle-desc">
-                    <!-- Sun Icon - Shows in Dark Mode -->
-                    <i class="fas fa-sun text-yellow-500 text-xl dark:block hidden" aria-hidden="true"></i>
-                    <!-- Moon Icon - Shows in Light Mode -->
-                    <i class="fas fa-moon text-blue-400 text-xl block dark:hidden" aria-hidden="true"></i>
-                    <span id="theme-toggle-desc" class="sr-only">Switch between light and dark theme</span>
-                </button>
-
-                <!-- Mobile menu button -->
-                <button id="mobile-menu-button" class="md:hidden p-2 rounded-full focus:outline-none" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
-                    <i class="fas fa-bars text-gray-700 dark:text-gray-200" aria-hidden="true"></i>
-                </button>
-                </div>
-            </div>
-
-            <!-- Mobile Navigation -->
-            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2 mobile-nav-panel">
-                <a href="#home" class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark">Home</a>
-                <a href="#about" class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark">About</a>
-                <a href="#skills" class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark">Skills</a>
-                <a href="#experience" class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark">Experience</a>
-                <a href="#education" class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark">Education</a>
-                <a href="#projects" class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark">Projects</a>
-                <a href="#certificates" class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark">Certificates</a>
-                <a href="#contact" class="nav-contact-btn nav-contact-btn-mobile" aria-label="Contact section">Contact</a>
-            </div>
-        </nav>
-    </header>
-
-     <!-- HERO SECTION -->   
-    <main id="main-content" class="min-h-screen">
-        <section id="home" class="min-h-screen flex items-center justify-center pt-20 hero-section relative" aria-label="Hero Section">
-            <!-- Particles Background -->
-            <div id="particles-js" class="absolute inset-0 w-full h-full"></div>
-
-            <!-- Hero Content -->
-            <div class="container mx-auto px-6 py-20 text-center relative z-10">
-            <div class="max-w-3xl mx-auto">
-                <!-- Main Heading -->
-                <h1 class="text-4xl md:text-6xl font-bold mb-6 hero-title">
-                    Hi, I'm <span class="neon-name">Omar Lashin</span>
-                </h1>
-
-                <!-- Subtitle -->
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-600 dark:text-gray-300 mb-8 hero-subtitle">
-                    Software Engineer | MEAN Stack Developer | DevOps Engineer
-                </h2>
-
-                <!-- Description -->
-                <p class="text-lg text-gray-500 dark:text-gray-400 mb-12 hero-description-animate">
-                    I'm a Senior Software Engineering student at Arab Academy For Science, Technology and Maritime Transport. 
-                    I focus on building scalable software solutions and writing clean, optimized code. 
-                    I have participated in ECPC 2X times.
-                </p>
-
-                <!-- Call-to-Action Buttons -->
-                <div class="flex flex-wrap justify-center gap-4">
-                    <a href="https://drive.google.com/file/d/1_9_7Ldsd3c8q12DgA9VG4WtZCS5AMtED/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="px-8 py-3 bg-primary hover:bg-primary-dark text-white rounded-full font-medium transition-all transform hover:scale-105 hero-button btn-primary">
-                        View My CV
-                    </a>
-                    <a href="#contact" class="px-8 py-3 border-2 border-primary text-primary dark:text-primary-dark hover:bg-primary hover:text-white dark:hover:text-white rounded-full font-medium transition-all transform hover:scale-105 hero-button btn-primary">
-                        Contact Me
-                    </a>
-                </div>
-
-                <!-- Social Media Links -->
-                <div class="mt-8 hero-social-animate">
-                    <div class="flex justify-center space-x-6">
-                        <a href="https://www.linkedin.com/in/omar-lashin-b75b37306/" target="_blank" rel="noopener noreferrer" class="social-icon hover:scale-110 transition-all duration-300 transform" aria-label="LinkedIn Profile">
-                            <img src="https://www.iconpacks.net/icons/1/free-linkedin-icon-130-thumb.png" alt="LinkedIn" class="w-8 h-8">
-                        </a>
-                        <a href="https://github.com/Omar-Lash1n" target="_blank" rel="noopener noreferrer" class="social-icon text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:scale-110 transition-all duration-300 transform" aria-label="GitHub Profile">
-                            <i class="fab fa-github text-2xl"></i>
-                        </a>
-                    </div>
-            </div>
+      <!-- Desktop Navigation Menu -->
+      <div class="hidden md:flex items-center gap-8">
+        <div class="flex items-center gap-8">
+          <a
+            href="#home"
+            class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+            >About</a
+          >
+          <a
+            href="#skills"
+            class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+            >Skills</a
+          >
+          <a
+            href="#experience"
+            class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+            >Experience</a
+          >
+          <a
+            href="#education"
+            class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+            >Education</a
+          >
+          <a
+            href="#projects"
+            class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+            >Projects</a
+          >
+          <a
+            href="#certificates"
+            class="nav-link font-bold hover:text-primary dark:hover:text-primary-dark relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary dark:after:bg-primary-dark after:transition-all after:duration-300 hover:after:w-full"
+            >Certificates</a
+          >
         </div>
-    </div></section>
+        <a href="#contact" class="nav-contact-btn" aria-label="Contact section">Contact</a>
+      </div>
 
-    <!-- ===== ABOUT SECTION ===== -->
-    <section id="about" class="py-20 bg-gray-100 dark:bg-gray-800 about-section">
-        <div class="container mx-auto px-6">
-            <!-- Section Header -->
-            <h2 class="text-3xl font-bold text-center mb-16">
-                <span class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3">
-                    <i class="fas fa-user section-title-icon"></i>
-                    <span>About Me</span>
-                </span>
-            </h2>
+      <!-- Theme Toggle Button -->
+      <div class="nav-actions">
+        <button
+          id="theme-toggle"
+          class="p-2 rounded-full border border-gray-300 dark:border-gray-600 focus:outline-none transition-all duration-300 hover:scale-110"
+          aria-label="Toggle dark mode"
+          aria-describedby="theme-toggle-desc"
+        >
+          <!-- Sun Icon - Shows in Dark Mode -->
+          <i class="fas fa-sun text-yellow-500 text-xl dark:block hidden" aria-hidden="true"></i>
+          <!-- Moon Icon - Shows in Light Mode -->
+          <i class="fas fa-moon text-blue-400 text-xl block dark:hidden" aria-hidden="true"></i>
+          <span id="theme-toggle-desc" class="sr-only">Switch between light and dark theme</span>
+        </button>
 
-            <div class="flex flex-col md:flex-row items-center gap-12">
-                <!-- Profile Image -->
-                <div class="md:w-1/3 flex justify-center">
-                    <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-primary dark:border-primary-dark shadow-lg profile-photo">
-                        <img src="Omar.jpg" alt="Omar Lashin Profile" class="w-full h-full object-cover object-top">
-                    </div>
-                </div>
+        <!-- Mobile menu button -->
+        <button
+          id="mobile-menu-button"
+          class="md:hidden p-2 rounded-full focus:outline-none"
+          aria-label="Toggle mobile menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <i class="fas fa-bars text-gray-700 dark:text-gray-200" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
 
-                <!-- About Content -->
-                <div class="md:w-2/3">
-                    <h3 class="text-2xl font-semibold mb-4">Who I Am</h3>
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2 mobile-nav-panel">
+      <a
+        href="#home"
+        class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+        >Home</a
+      >
+      <a
+        href="#about"
+        class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+        >About</a
+      >
+      <a
+        href="#skills"
+        class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+        >Skills</a
+      >
+      <a
+        href="#experience"
+        class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+        >Experience</a
+      >
+      <a
+        href="#education"
+        class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+        >Education</a
+      >
+      <a
+        href="#projects"
+        class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+        >Projects</a
+      >
+      <a
+        href="#certificates"
+        class="block nav-link font-bold hover:text-primary dark:hover:text-primary-dark"
+        >Certificates</a
+      >
+      <a href="#contact" class="nav-contact-btn nav-contact-btn-mobile" aria-label="Contact section"
+        >Contact</a
+      >
+    </div>
+  </nav>
+</header>
 
-                    <p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                        I'm a passionate Software Engineer. I have a Bachelor's Degree in Software Engineering and built a strong technical foundation in core principles like Data Structures, Algorithms, and Memory Management. This background allows me to consistently write clean, optimized, and scalable code.
-                    </p>
+<!-- HERO SECTION -->
+<main id="main-content" class="min-h-screen">
+  <section
+    id="home"
+    class="min-h-screen flex items-center justify-center pt-20 hero-section relative"
+    aria-label="Hero Section"
+  >
+    <!-- Particles Background -->
+    <div id="particles-js" class="absolute inset-0 w-full h-full"></div>
 
-                    <p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                        I focus on designing and building complete software solutions that solve complex business problems. I care deeply about engineering quality and delivering reliable systems. I specialized in MEAN stack development and the modern DevOps culture.
-                    </p>
+    <!-- Hero Content -->
+    <div class="container mx-auto px-6 py-20 text-center relative z-10">
+      <div class="max-w-3xl mx-auto">
+        <!-- Main Heading -->
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 hero-title">
+          Hi, I'm <span class="neon-name">Omar Lashin</span>
+        </h1>
 
-                    <!-- Contact Information -->
-                    <div class="flex flex-wrap gap-4">
-                        <div class="flex items-center">
-                            <i class="fas fa-map-marker-alt text-primary dark:text-primary-dark mr-2"></i>
-                            <span>Cairo, Egypt</span>
-                        </div>
-                        <div class="flex items-center">
-                            <i class="fas fa-envelope text-primary dark:text-primary-dark mr-2"></i>
-                            <a href="mailto:omaramrabdelkaderlashin@gmail.com" class="hover:text-primary dark:hover:text-primary-dark transition-colors">
-                                omaramrabdelkaderlashin@gmail.com
-                            </a>
-                        </div>
-                        <div class="flex items-center">
-                            <i class="fas fa-phone text-primary dark:text-primary-dark mr-2"></i>
-                            <a href="tel:+201065865000" class="hover:text-primary dark:hover:text-primary-dark transition-colors">
-                                +201065865000
-                            </a>
-                        </div>
-                        <div class="flex items-center">
-                            <i class="fab fa-linkedin text-primary dark:text-primary-dark mr-2"></i>
-                            <a href="https://www.linkedin.com/in/omar-lashin-b75b37306/" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary-dark transition-colors">
-                                LinkedIn
-                            </a>
-                        </div>
-                        <div class="flex items-center">
-                            <i class="fab fa-github text-primary dark:text-primary-dark mr-2"></i>
-                            <a href="https://github.com/Omar-Lash1n" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary-dark transition-colors">
-                                GitHub
-                            </a>
-                        </div>
-                        <div class="flex items-center">
-                            <i class="fas fa-code text-primary dark:text-primary-dark mr-2"></i>
-                            <a href="https://codeforces.com/profile/OmarLashin_" target="_blank" rel="noopener noreferrer" class="hover:text-primary dark:hover:text-primary-dark transition-colors">
-                                Codeforces
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Subtitle -->
+        <h2
+          class="text-2xl md:text-3xl font-bold text-gray-600 dark:text-gray-300 mb-8 hero-subtitle"
+        >
+          Software Engineer | MEAN Stack Developer
+        </h2>
+
+        <!-- Description -->
+        <p class="text-lg text-gray-500 dark:text-gray-400 mb-12 hero-description-animate">
+          I'm a Senior Software Engineering student at Arab Academy For Science, Technology and
+          Maritime Transport. I focus on building scalable software solutions and writing clean,
+          optimized code. I participated in ECPC 2X times.
+        </p>
+
+        <!-- Call-to-Action Buttons -->
+        <div class="flex flex-wrap justify-center gap-4">
+          <a
+            href="https://drive.google.com/file/d/1_9_7Ldsd3c8q12DgA9VG4WtZCS5AMtED/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-8 py-3 bg-primary hover:bg-primary-dark text-white rounded-full font-medium transition-all transform hover:scale-105 hero-button btn-primary"
+          >
+            View My CV
+          </a>
+          <a
+            href="#contact"
+            class="px-8 py-3 border-2 border-primary text-primary dark:text-primary-dark hover:bg-primary hover:text-white dark:hover:text-white rounded-full font-medium transition-all transform hover:scale-105 hero-button btn-primary"
+          >
+            Contact Me
+          </a>
         </div>
-    </section>
 
-    <!-- ===== SKILLS SECTION ===== -->
-    <section id="skills" class="py-20 skills-section">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-16">
-                <span class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3">
-                    <i class="fas fa-code section-title-icon"></i>
-                    <span>Skills</span>
-                </span>
-            </h2>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card">
-                    <div class="flex items-center mb-4">
-                        <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
-                            <i class="fas fa-brain text-xl skill-icon"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold">Core Concepts</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Problem Solving</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Data Structures</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Algorithms</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">OOP</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">SOLID</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Design Patterns</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Agile</span>
-                    </div>
-                </div>
-
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card">
-                    <div class="flex items-center mb-4">
-                        <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
-                            <i class="fas fa-server text-xl skill-icon"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold">Backend</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Javascript</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Express</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">RestFul Web API</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">JWT</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Deployment</span>
-                    </div>
-                </div>
-
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card">
-                    <div class="flex items-center mb-4">
-                        <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
-                            <i class="fas fa-database text-xl skill-icon"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold">Databases &amp; ORMs</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">MySQL</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">MongoDB</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Redis</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">ERD and Schema designing</span>
-                    </div>
-                </div>
-
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card">
-                    <div class="flex items-center mb-4">
-                        <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
-                            <i class="fas fa-sitemap text-xl skill-icon"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold">Architecture &amp; Performance</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Microservices</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Redis Caching</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Rate Limiting</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">QAs</span>
-                    </div>
-                </div>
-
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card">
-                    <div class="flex items-center mb-4">
-                        <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
-                            <i class="fas fa-rocket text-xl skill-icon"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold">DevOps &amp; Deployment</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Git</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">GitHub</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Docker</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Terraform</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">CI/CD</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">ArgoCD</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Swagger</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">AWS</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Grafana</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Prometheus</span>
-                    </div>
-                </div>
-
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card">
-                    <div class="flex items-center mb-4">
-                        <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
-                            <i class="fas fa-palette text-xl skill-icon"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold">Frontend</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">HTML</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">CSS</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">JavaScript</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">SASS</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Bootstrap</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Angular</span>
-                    </div>
-                </div>
-
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card md:col-span-2 mx-auto w-full md:w-[calc(50%-1rem)]">
-                    <div class="flex items-center mb-4">
-                        <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
-                            <i class="fas fa-users text-xl skill-icon"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold">Soft Skills</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Agile mindset</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Teamwork</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Research</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Time Management</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Communication skills</span>
-                        <span class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Presentation skills</span>
-                    </div>
-                </div>
-
-            </div>
+        <!-- Social Media Links -->
+        <div class="mt-8 hero-social-animate">
+          <div class="flex justify-center space-x-6">
+            <a
+              href="https://www.linkedin.com/in/omar-lashin-b75b37306/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon hover:scale-110 transition-all duration-300 transform"
+              aria-label="LinkedIn Profile"
+            >
+              <img
+                src="https://www.iconpacks.net/icons/1/free-linkedin-icon-130-thumb.png"
+                alt="LinkedIn"
+                class="w-8 h-8"
+              />
+            </a>
+            <a
+              href="https://github.com/Omar-Lash1n"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:scale-110 transition-all duration-300 transform"
+              aria-label="GitHub Profile"
+            >
+              <i class="fab fa-github text-2xl"></i>
+            </a>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- ===== EXPERIENCE SECTION ===== -->
-    <section id="experience" class="py-20 experience-section">
-        <div class="container mx-auto px-6">
-            <!-- Section Header -->
-            <h2 class="text-3xl font-bold text-center mb-16">
-                <span class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3">
-                    <i class="fas fa-briefcase section-title-icon"></i>
-                    <span>Experience &amp; Internships</span>
-                </span>
-            </h2>
-
-            <div class="max-w-4xl mx-auto">
-                <!-- Timeline -->
-                <div class="space-y-8">
-
-                    <!-- Experience 1 -->
-                    <div class="timeline-item relative pl-8">
-                        <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary dark:bg-primary-dark border-4 border-white dark:border-gray-800 z-10 timeline-dot"></div>
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                                <h3 class="text-xl font-semibold">Full Stack Developer</h3>
-                                <span class="text-primary dark:text-primary-dark font-medium">Jun 2025 - Feb 2026</span>
-                            </div>
-                            <div class="flex items-center text-gray-600 dark:text-gray-400 mb-4">
-                                <i class="fas fa-building mr-2"></i>
-                                <span>Fodwa</span>
-                            </div>
-                            <p class="text-gray-600 dark:text-gray-300">
-                                Developed a multi-service web encompassing E-Commerce, ride-hailing, and a digital wallet feature.<br>
-                                Implemented secure user authentication mechanisms, including Google and Apple login integrations.<br>
-                                Managed the deployment process of the backend services to DigitalOcean, ensuring system availability.<br>
-                                Built API endpoints for the wallet and E-Commerce modules to handle data securely and efficiently.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Experience 2 -->
-                    <div class="timeline-item relative pl-8">
-                        <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary dark:bg-primary-dark border-4 border-white dark:border-gray-800 z-10 timeline-dot"></div>
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                                <h3 class="text-xl font-semibold">.NET Developer Intern</h3>
-                                <span class="text-primary dark:text-primary-dark font-medium">Nov 2024 - May 2025</span>
-                            </div>
-                            <div class="flex items-center text-gray-600 dark:text-gray-400 mb-4">
-                                <i class="fas fa-building mr-2"></i>
-                                <span>Route</span>
-                            </div>
-                            <p class="text-gray-600 dark:text-gray-300">
-                                Developed scalable APIs utilizing ASP.NET Core Web API and C#, implementing various Design Patterns to build robust and maintainable systems.<br>
-                                Architected backend solutions applying Clean Architecture and strictly adhering to SOLID principles.<br>
-                                Integrated Redis for high-performance data caching and SignalR for real-time web functionalities, significantly improving system responsiveness.<br>
-                                Managed data access and optimized database queries using Entity Framework Core.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Experience 3 -->
-                    <div class="timeline-item relative pl-8">
-                        <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary dark:bg-primary-dark border-4 border-white dark:border-gray-800 z-10 timeline-dot"></div>
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                                <h3 class="text-xl font-semibold">Software Engineer Intern</h3>
-                                <span class="text-primary dark:text-primary-dark font-medium">Jun 2024 - Nov 2024</span>
-                            </div>
-                            <div class="flex items-center text-gray-600 dark:text-gray-400 mb-4">
-                                <i class="fas fa-building mr-2"></i>
-                                <span>Algoriza</span>
-                            </div>
-                            <p class="text-gray-600 dark:text-gray-300">
-                                Participated in the full Software Development Life Cycle (SDLC) to build, test, and deploy software applications.<br>
-                                Developed practical software projects from scratch, including a comprehensive Hotel Booking system and a real-time Weather tracking application.<br>
-                                Collaborated actively with engineering teams using Git/GitHub for version control, code management, and peer reviews.<br>
-                                Engaged in technical problem-solving sessions to implement sustainable fixes and write clean, efficient code.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== EDUCATION SECTION ===== -->
-    <section id="education" class="py-20 bg-gray-100 dark:bg-gray-800 education-section">
-        <div class="container mx-auto px-6">
-            <!-- Section Header -->
-            <h2 class="text-3xl font-bold text-center mb-16">
-                <span class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3">
-                    <i class="fas fa-graduation-cap section-title-icon"></i>
-                    <span>Education</span>
-                </span>
-            </h2>
-
-            <div class="max-w-4xl mx-auto">
-                <!-- Education -->
-                <div class="bg-white dark:bg-gray-700 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                    <div class="flex items-center mb-6">
-                        <div class="p-4 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-6">
-                            <i class="fas fa-graduation-cap text-2xl"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-2xl font-semibold">Bachelor's Degree, Software Engineering</h3>
-                            <p class="text-xl text-gray-600 dark:text-gray-300">Arab Academy for Science, Technology and Maritime Transport</p>
-                        </div>
-                    </div>
-                    <div class="flex items-center text-gray-600 dark:text-gray-400 mb-4 text-lg">
-                        <i class="far fa-calendar-alt mr-3"></i>
-                        <span>2022 - 2026</span>
-                    </div>
-                    <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
-                        <h4 class="font-semibold text-gray-700 dark:text-gray-300 mb-3">Activities &amp; Achievements:</h4>
-                        <div class="space-y-2">
-                            <div class="flex items-center">
-                                <i class="fas fa-certificate text-primary dark:text-primary-dark mr-3"></i>
-                                <span class="text-gray-600 dark:text-gray-300">ICPC Certificate, Web development head at Google Developer Groups, 1st place in Build with AI Hackathon in Aswan</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== PROJECTS SECTION ===== -->
-    <section id="projects" class="py-20 projects-section">
-        <div class="container mx-auto px-6">
-            <!-- Section Header -->
-            <h2 class="text-3xl font-bold text-center mb-16">
-                <span class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3">
-                    <i class="fas fa-diagram-project section-title-icon"></i>
-                    <span>Featured Projects</span>
-                </span>
-            </h2>
-
-            <!-- Projects Carousel Container -->
-            <div class="relative">
-                <!-- Left Arrow -->
-                <button id="prev-project" title="Previous project" aria-label="Previous project" class="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-4 z-10 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 focus:outline-none">
-                    <i class="fas fa-chevron-left text-xl"></i>
-                </button>
-
-                <!-- Right Arrow -->
-                <button id="next-project" title="Next project" aria-label="Next project" class="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-4 z-10 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 focus:outline-none">
-                    <i class="fas fa-chevron-right text-xl"></i>
-                </button>
-
-                <!-- Carousel Track -->
-                <div class="overflow-hidden rounded-lg">
-                    <div id="projects-track" class="flex transition-transform duration-500 ease-in-out">
-                        <!-- Talabat E-Commerce API -->
-                        <div class="w-full flex-shrink-0 px-4">
-                            <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow project-card max-w-4xl mx-auto">
-                                <div class="h-48 overflow-hidden">
-                                    <img src="https://www.prismetric.com/wp-content/uploads/2023/07/ecommerce-api-integration-connecting-the-dots-and-empowering-stores.jpg" alt="Talabat E-Commerce API" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-                                </div>
-                                <div class="p-6">
-                                    <h3 class="text-xl font-semibold mb-4">Talabat Store API</h3>
-                                    <div class="project-arc mb-5">
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-challenge"><i class="fas fa-exclamation-circle"></i> Challenge</p>
-                                            <p class="stage-text">Build a full e-commerce back-end with secure payment integration, low-latency caching, and a clean layered architecture.</p>
-                                        </div>
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-action"><i class="fas fa-screwdriver-wrench"></i> Action</p>
-                                            <p class="stage-text">Developed a .NET Core Onion Architecture API with Redis caching, Stripe payment flow, and complete order management endpoints.</p>
-                                        </div>
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-result"><i class="fas fa-circle-check"></i> Result</p>
-                                            <p class="stage-text">Delivered a production-ready API with sub-50ms responses on cached endpoints and full Swagger documentation.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex flex-wrap gap-2 mb-5">
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">.NET Core</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">Redis</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">Stripe</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">Onion Arch</span>
-                                    </div>
-                                    <div class="flex space-x-4 project-links pt-4">
-                                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-primary dark:text-primary-dark hover:underline flex items-center">
-                                            <i class="fab fa-github mr-2"></i> View Code
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Order Management System -->
-                        <div class="w-full flex-shrink-0 px-4">
-                            <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow project-card max-w-4xl mx-auto">
-                                <div class="h-48 overflow-hidden">
-                                    <img src="https://magora-systems.com/storage/blog/47xP5l24e2TFG3NKe3LTVrUndv8nk5HsPcUrZwZj.webp" alt="Order Management System" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-                                </div>
-                                <div class="p-6">
-                                    <h3 class="text-xl font-semibold mb-4">Order Management System API</h3>
-                                    <div class="project-arc mb-5">
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-challenge"><i class="fas fa-exclamation-circle"></i> Challenge</p>
-                                            <p class="stage-text">Create a secure API for multi-role order workflows with clear validation, tracking, and scalable data access.</p>
-                                        </div>
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-action"><i class="fas fa-screwdriver-wrench"></i> Action</p>
-                                            <p class="stage-text">Built a .NET 8 API using JWT auth, role authorization, DTO mapping via AutoMapper, and structured exception handling.</p>
-                                        </div>
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-result"><i class="fas fa-circle-check"></i> Result</p>
-                                            <p class="stage-text">Shipped a robust order platform with clean documentation, maintainable architecture, and reliable endpoint behavior.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex flex-wrap gap-2 mb-5">
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">.NET 8</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">JWT</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">Entity Framework</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">AutoMapper</span>
-                                    </div>
-                                    <div class="flex space-x-4 project-links pt-4">
-                                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-primary dark:text-primary-dark hover:underline flex items-center">
-                                            <i class="fab fa-github mr-2"></i> View Code
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Examination System -->
-                        <div class="w-full flex-shrink-0 px-4">
-                            <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow project-card max-w-4xl mx-auto">
-                                <div class="h-48 overflow-hidden">
-                                    <img src="https://media.licdn.com/dms/image/v2/D5612AQFi0yo_Hhp9fQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1687161968941?e=2147483647&amp;v=beta&amp;t=fTh6BRWsDmClVy8_bpetFp1c12G-4TLd4jS5Vy1T6nc" alt="Examination System" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-                                </div>
-                                <div class="p-6">
-                                    <h3 class="text-xl font-semibold mb-4">Examination System</h3>
-                                    <div class="project-arc mb-5">
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-challenge"><i class="fas fa-exclamation-circle"></i> Challenge</p>
-                                            <p class="stage-text">Design an exam platform supporting multiple user roles with secure assessment flow and instant grading feedback.</p>
-                                        </div>
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-action"><i class="fas fa-screwdriver-wrench"></i> Action</p>
-                                            <p class="stage-text">Implemented role-based authentication, exam generation logic, auto-grading modules, and SQL Server persistence.</p>
-                                        </div>
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-result"><i class="fas fa-circle-check"></i> Result</p>
-                                            <p class="stage-text">Delivered a stable exam system with real-time score visibility and reporting for admins, teachers, and students.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex flex-wrap gap-2 mb-5">
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">C#</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">.NET Framework</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">SQL Server</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">Role-Based Access</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">Auto-Grading</span>
-                                    </div>
-                                    <div class="flex space-x-4 project-links pt-4">
-                                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-primary dark:text-primary-dark hover:underline flex items-center">
-                                            <i class="fab fa-github mr-2"></i> View Code
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Restaurant Website -->
-                        <div class="w-full flex-shrink-0 px-4">
-                            <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow project-card max-w-4xl mx-auto">
-                                <div class="h-48 overflow-hidden">
-                                    <img src="https://themewagon.com/wp-content/uploads/2018/10/pizza-1.jpg" alt="Restaurant Website" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
-                                </div>
-                                <div class="p-6">
-                                    <h3 class="text-xl font-semibold mb-4">Restaurant Website</h3>
-                                    <div class="project-arc mb-5">
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-challenge"><i class="fas fa-exclamation-circle"></i> Challenge</p>
-                                            <p class="stage-text">Create a visually attractive restaurant site with fast loading, smooth navigation, and mobile-first responsiveness.</p>
-                                        </div>
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-action"><i class="fas fa-screwdriver-wrench"></i> Action</p>
-                                            <p class="stage-text">Built interactive pages with HTML, CSS, and JavaScript, including menu components, sliders, and smooth-scrolling UI behaviors.</p>
-                                        </div>
-                                        <div class="project-stage">
-                                            <p class="stage-label stage-result"><i class="fas fa-circle-check"></i> Result</p>
-                                            <p class="stage-text">Published a polished and responsive front-end experience with improved engagement and clear call-to-action flow.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex flex-wrap gap-2 mb-5">
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm">HTML5</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">CSS3</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">JavaScript</span>
-                                        <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm">Responsive Design</span>
-                                    </div>
-                                    <div class="flex space-x-4 project-links pt-4">
-                                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-primary dark:text-primary-dark hover:underline flex items-center">
-                                            <i class="fab fa-github mr-2"></i> View Code
-                                        </a>
-                                        <a href="https://a-hemeda.github.io/Restaurant/" target="_blank" rel="noopener noreferrer" class="text-primary dark:text-primary-dark hover:underline flex items-center">
-                                            <i class="fas fa-external-link-alt mr-2"></i> Live Demo
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Indicators -->
-                <div class="flex justify-center mt-8 space-x-2">
-                    <button title="Go to project 1" aria-label="Go to project 1" class="project-indicator w-3 h-3 rounded-full bg-primary transition-all duration-300" data-index="0"></button>
-                    <button title="Go to project 2" aria-label="Go to project 2" class="project-indicator w-3 h-3 rounded-full bg-gray-300 dark:bg-gray-600 transition-all duration-300" data-index="1"></button>
-                    <button title="Go to project 3" aria-label="Go to project 3" class="project-indicator w-3 h-3 rounded-full bg-gray-300 dark:bg-gray-600 transition-all duration-300" data-index="2"></button>
-                    <button title="Go to project 4" aria-label="Go to project 4" class="project-indicator w-3 h-3 rounded-full bg-gray-300 dark:bg-gray-600 transition-all duration-300" data-index="3"></button>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ===== CERTIFICATES SECTION ===== -->
-    <section id="certificates" class="py-20 certificates-section">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-16">
-                <span class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3">
-                    <i class="fas fa-certificate section-title-icon"></i>
-                    <span>Certificates</span>
-                </span>
-            </h2>
-
-            <div class="cert-list max-w-8xl mx-auto">
-                <article class="cert-item">
-                    <div class="cert-icon-box cert-icon-unified">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="cert-main">
-                        <div class="cert-top">
-                            <div class="cert-content">
-                                <h3 class="cert-title">Backend .NET Core Diploma</h3>
-                                <p class="cert-meta">Route Academy • Issued May 2025</p>
-                            </div>
-                            <a href="https://drive.google.com/file/d/1QxexUigIy7CT6yVzr_Rb2GiG4EHD1YpT/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="View Backend .NET Core Diploma certificate" aria-label="View Backend .NET Core Diploma certificate" class="cert-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <p class="cert-description">Comprehensive backend diploma focused on building scalable .NET applications with strong architecture and API design.</p>
-                        <div class="cert-skills">
-                            <span class="cert-skill">Database</span>
-                            <span class="cert-skill">SQL Server</span>
-                            <span class="cert-skill">C#</span>
-                            <span class="cert-skill">OOP</span>
-                            <span class="cert-skill">Advanced C#</span>
-                            <span class="cert-skill">Data Structure</span>
-                            <span class="cert-skill">LINQ</span>
-                            <span class="cert-skill">EF Core</span>
-                            <span class="cert-skill">.NET MVC</span>
-                            <span class="cert-skill">.NET Web API</span>
-                            <span class="cert-skill">SOLID</span>
-                            <span class="cert-skill">Design Pattern</span>
-                            <span class="cert-skill">SignalR</span>
-                            <span class="cert-skill">Dapper</span>
-                            <span class="cert-skill">Redis</span>
-                            <span class="cert-skill">Agile</span>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="cert-item">
-                    <div class="cert-icon-box cert-icon-unified">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <div class="cert-main">
-                        <div class="cert-top">
-                            <div class="cert-content">
-                                <h3 class="cert-title">Database</h3>
-                                <p class="cert-meta">ITI (Mahara-Tech) • Issued Oct 2024</p>
-                            </div>
-                            <a href="https://drive.google.com/file/d/1hSVMNE5G2POTEbrzaa-q9jRXCwNZpZaF/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="View Database certificate" aria-label="View Database certificate" class="cert-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <p class="cert-description">Covers relational database fundamentals, normalization, and practical SQL querying for production-ready systems.</p>
-                        <div class="cert-skills">
-                            <span class="cert-skill">Database Design</span>
-                            <span class="cert-skill">SQL</span>
-                            <span class="cert-skill">Normalization</span>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="cert-item">
-                    <div class="cert-icon-box cert-icon-unified">
-                        <i class="fab fa-microsoft"></i>
-                    </div>
-                    <div class="cert-main">
-                        <div class="cert-top">
-                            <div class="cert-content">
-                                <h3 class="cert-title">C# with Microsoft</h3>
-                                <p class="cert-meta">freeCodeCamp • Issued Sep 2024</p>
-                            </div>
-                            <a href="https://www.freecodecamp.org/certification/fcca3b32b19-3fc7-461c-a5b6-3209a0a5be51/foundational-c-sharp-with-microsoft" target="_blank" rel="noopener noreferrer" title="View C# with Microsoft certificate" aria-label="View C# with Microsoft certificate" class="cert-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <p class="cert-description">Foundational C# training covering language syntax, Object Oriented Programming, and clean coding practices.</p>
-                        <div class="cert-skills">
-                            <span class="cert-skill">C#</span>
-                            <span class="cert-skill">OOP</span>
-                            <span class="cert-skill">Problem Solving</span>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="cert-item">
-                    <div class="cert-icon-box cert-icon-unified">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                    <div class="cert-main">
-                        <div class="cert-top">
-                            <div class="cert-content">
-                                <h3 class="cert-title">Agile Project Management</h3>
-                                <p class="cert-meta">LinkedIn Learning • Issued Sep 2024</p>
-                            </div>
-                            <a href="#" target="_blank" rel="noopener noreferrer" title="View Agile Project Management certificate" aria-label="View Agile Project Management certificate" class="cert-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <p class="cert-description">Practical agile planning and team delivery workflows with iterative execution and sprint-based project management.</p>
-                        <div class="cert-skills">
-                            <span class="cert-skill">Agile Methodologies</span>
-                            <span class="cert-skill">Sprint Planning</span>
-                            <span class="cert-skill">Team Collaboration</span>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="cert-item">
-                    <div class="cert-icon-box cert-icon-unified">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <div class="cert-main">
-                        <div class="cert-top">
-                            <div class="cert-content">
-                                <h3 class="cert-title">Foundations of Project Management</h3>
-                                <p class="cert-meta">Google (Coursera) • Issued Jan 2024</p>
-                            </div>
-                            <a href="https://www.coursera.org/account/accomplishments/verify/EVA33U556NB3" target="_blank" rel="noopener noreferrer" title="View Foundations of Project Management certificate" aria-label="View Foundations of Project Management certificate" class="cert-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <p class="cert-description">Core project management principles from project kickoff through execution, risk handling, and stakeholder communication.</p>
-                        <div class="cert-skills">
-                            <span class="cert-skill">Project Management</span>
-                            <span class="cert-skill">Risk Management</span>
-                            <span class="cert-skill">Planning</span>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== CONTACT SECTION ===== -->
-    <section id="contact" class="py-20 bg-gray-100 dark:bg-gray-800 contact-section">
-        <div class="container mx-auto px-6">
-            <!-- Section Header -->
-            <h2 class="text-3xl font-bold text-center mb-16">
-                <span class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3">
-                    <i class="fas fa-envelope section-title-icon"></i>
-                    <span>Contact Me</span>
-                </span>
-            </h2>
-
-            <div class="flex justify-center">
-                <div class="max-w-2xl">
-                    <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
-                    <p class="text-gray-600 dark:text-gray-300 mb-8">
-                        Feel free to reach out if you're looking for a developer, or have any questions.
-                    </p>
-
-                    <div class="space-y-6">
-                        <div class="flex items-start">
-                            <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-medium">Location</h4>
-                                <p class="text-gray-600 dark:text-gray-300">Cairo, Egypt</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start">
-                            <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-medium">Email</h4>
-                                <a href="mailto:omaramrabdelkaderlashin@gmail.com" class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-dark transition-colors">omaramrabdelkaderlashin@gmail.com</a>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start">
-                            <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-medium">Phone</h4>
-                                <a href="tel:+201065865000" class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-dark transition-colors">+201065865000</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-8">
-                        <h3 class="font-medium mb-4">Follow Me</h3>
-                        <div class="flex space-x-6">
-                               <a href="https://www.linkedin.com/in/omar-lashin-b75b37306/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn" class="social-icon hover:scale-110 transition-all duration-300 transform">
-                                <img src="https://www.iconpacks.net/icons/1/free-linkedin-icon-130-thumb.png" alt="LinkedIn" class="w-8 h-8">
-                            </a>
-                            <a href="https://github.com/omarlashin" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub" class="social-icon text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:scale-110 transition-all duration-300 transform">
-                                <i class="fab fa-github text-3xl"></i>
-                            </a>
-                            <a href="https://wa.me/+201065865000" target="_blank" rel="noopener noreferrer" title="WhatsApp" aria-label="WhatsApp" class="social-icon hover:scale-110 transition-all duration-300 transform">
-                                <img src="https://marketplace.canva.com/Vmp9Y/MAEvzQVmp9Y/1/tl/canva-whatsapp-status-icon-MAEvzQVmp9Y.png" alt="WhatsApp" class="w-8 h-8">
-                            </a>
-                            <a href="https://www.facebook.com/share/1BT3MQR8V4/" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook" class="social-icon hover:scale-110 transition-all duration-300 transform">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/960px-Facebook_Logo_%282019%29.png" alt="Facebook" class="w-8 h-8">
-                            </a>
-                        </div>
-                        <div class="mt-10">
-                        <h3 class="font-medium mb-4">Competitive Programming</h3>
-                        <div class="flex space-x-6">
-                            <a href="https://codeforces.com/profile/OmarLashin_" target="_blank" rel="noopener noreferrer" title="Codeforces" aria-label="Codeforces" class="social-icon hover:scale-110 transition-all duration-300 transform inline-block">
-                                <img src="https://cdn.iconscout.com/icon/free/png-256/free-code-forces-logo-icon-svg-png-download-2944796.png" alt="Codeforces" class="w-8 h-8">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div></section>
-
-        </main>
-
-         <!-- FOOTER --> 
-        <footer class="bg-white dark:bg-gray-900 py-8" role="contentinfo">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-4 md:mb-0">
-                    <a href="#home" class="text-2xl font-bold text-primary dark:text-primary-dark">Omar Lashin</a>
-                    <p class="text-gray-600 dark:text-gray-300 mt-2">© 2026 Omar Lashin. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <button id="back-to-top" title="Back to top" aria-label="Back to top" class="fixed bottom-8 right-8 p-3 bg-primary dark:bg-primary-dark text-white rounded-full shadow-lg opacity-0 invisible transition-all duration-300 back-to-top">
-        <span class="galaxy-bg"></span>
-        <span class="galaxy-stars"></span>
-        <span class="back-to-top-content">
-            <span class="rocket-wrap" aria-hidden="true">
-                <i class="fas fa-arrow-up arrow-icon"></i>
-            </span>
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="py-20 bg-gray-100 dark:bg-gray-800 about-section">
+    <div class="container mx-auto px-6">
+      <!-- Section Header -->
+      <h2 class="text-3xl font-bold text-center mb-16">
+        <span
+          class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3"
+        >
+          <i class="fas fa-user section-title-icon"></i>
+          <span>About Me</span>
         </span>
-    </button>
+      </h2>
 
-    
-    
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <!-- Profile Image -->
+        <div class="md:w-1/3 flex justify-center">
+          <div
+            class="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary dark:border-primary-dark shadow-lg profile-photo"
+          >
+            <img
+              src="personal-photo.jpg"
+              alt="Omar Lashin Profile"
+              class="w-full h-full object-cover"
+              style="object-position: center 40%;"
+            />
+          </div>
+        </div>
+
+        <!-- About Content -->
+        <div class="md:w-2/3">
+          <h3 class="text-2xl font-semibold mb-4">Who I Am</h3>
+
+          <p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+            I'm a passionate Software Engineer. I have a Bachelor's Degree in Software Engineering
+            and built a strong technical foundation in core principles like Data Structures,
+            Algorithms, and Memory Management. This background allows me to consistently write
+            clean, optimized, and scalable code.
+          </p>
+
+          <p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+            I focus on designing and building complete software solutions that solve complex
+            business problems. I care deeply about engineering quality and delivering reliable
+            systems. I specialized in MEAN stack development and the modern DevOps culture.
+          </p>
+
+          <!-- Contact Information -->
+          <div class="flex flex-wrap gap-4">
+            <div class="flex items-center">
+              <i class="fas fa-map-marker-alt text-primary dark:text-primary-dark mr-2"></i>
+              <span>Cairo, Egypt</span>
+            </div>
+            <div class="flex items-center">
+              <i class="fas fa-envelope text-primary dark:text-primary-dark mr-2"></i>
+              <a
+                href="mailto:omaramrabdelkaderlashin@gmail.com"
+                class="hover:text-primary dark:hover:text-primary-dark transition-colors"
+              >
+                omaramrabdelkaderlashin@gmail.com
+              </a>
+            </div>
+            <div class="flex items-center">
+              <i class="fas fa-phone text-primary dark:text-primary-dark mr-2"></i>
+              <a
+                href="tel:+201065865000"
+                class="hover:text-primary dark:hover:text-primary-dark transition-colors"
+              >
+                +201065865000
+              </a>
+            </div>
+            <div class="flex items-center">
+              <i class="fab fa-linkedin text-primary dark:text-primary-dark mr-2"></i>
+              <a
+                href="https://www.linkedin.com/in/omar-lashin-b75b37306/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-primary dark:hover:text-primary-dark transition-colors"
+              >
+                LinkedIn
+              </a>
+            </div>
+            <div class="flex items-center">
+              <i class="fab fa-github text-primary dark:text-primary-dark mr-2"></i>
+              <a
+                href="https://github.com/Omar-Lash1n"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-primary dark:hover:text-primary-dark transition-colors"
+              >
+                GitHub
+              </a>
+            </div>
+            <div class="flex items-center">
+              <i class="fas fa-code text-primary dark:text-primary-dark mr-2"></i>
+              <a
+                href="https://codeforces.com/profile/OmarLashin_"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-primary dark:hover:text-primary-dark transition-colors"
+              >
+                Codeforces
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section id="skills" class="py-20 skills-section">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-16">
+        <span
+          class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3"
+        >
+          <i class="fas fa-code section-title-icon"></i>
+          <span>Skills</span>
+        </span>
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div
+          class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+        >
+          <div class="flex items-center mb-4">
+            <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
+              <i class="fas fa-brain text-xl skill-icon"></i>
+            </div>
+            <h3 class="text-xl font-semibold">Core Concepts</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Problem Solving</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Data Structures</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Algorithms</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >OOP</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >SOLID</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Design Patterns</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Agile</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+        >
+          <div class="flex items-center mb-4">
+            <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
+              <i class="fas fa-server text-xl skill-icon"></i>
+            </div>
+            <h3 class="text-xl font-semibold">Backend</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Javascript</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Express</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >RestFul Web API</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >JWT</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Deployment</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+        >
+          <div class="flex items-center mb-4">
+            <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
+              <i class="fas fa-database text-xl skill-icon"></i>
+            </div>
+            <h3 class="text-xl font-semibold">Databases &amp; ORMs</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >MySQL</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >MongoDB</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Redis</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >ERD and Schema designing</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+        >
+          <div class="flex items-center mb-4">
+            <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
+              <i class="fas fa-sitemap text-xl skill-icon"></i>
+            </div>
+            <h3 class="text-xl font-semibold">Architecture &amp; Performance</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Microservices</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Redis Caching</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Rate Limiting</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >QAs</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+        >
+          <div class="flex items-center mb-4">
+            <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
+              <i class="fas fa-rocket text-xl skill-icon"></i>
+            </div>
+            <h3 class="text-xl font-semibold">DevOps &amp; Deployment</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Git</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >GitHub</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Docker</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Terraform</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >CI/CD</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >ArgoCD</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Swagger</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >AWS</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Grafana</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Prometheus</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card"
+        >
+          <div class="flex items-center mb-4">
+            <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
+              <i class="fas fa-palette text-xl skill-icon"></i>
+            </div>
+            <h3 class="text-xl font-semibold">Frontend</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >HTML</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >CSS</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >JavaScript</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >SASS</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Bootstrap</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Angular</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow skill-card md:col-span-2 mx-auto w-full md:w-[calc(50%-1rem)]"
+        >
+          <div class="flex items-center mb-4">
+            <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
+              <i class="fas fa-users text-xl skill-icon"></i>
+            </div>
+            <h3 class="text-xl font-semibold">Soft Skills</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Agile mindset</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Teamwork</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Research</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Time Management</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Communication skills</span
+            >
+            <span
+              class="px-3 py-2 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+              >Presentation skills</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section id="experience" class="py-20 experience-section">
+    <div class="container mx-auto px-6">
+      <!-- Section Header -->
+      <h2 class="text-3xl font-bold text-center mb-16">
+        <span
+          class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3"
+        >
+          <i class="fas fa-briefcase section-title-icon"></i>
+          <span>Experience &amp; Internships</span>
+        </span>
+      </h2>
+
+      <div class="max-w-4xl mx-auto">
+        <!-- Timeline -->
+        <div class="space-y-8">
+          <div class="timeline-item relative pl-8">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary dark:bg-primary-dark border-4 border-white dark:border-gray-800 z-10 timeline-dot"
+            ></div>
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                <h3 class="text-xl font-semibold">MEAN Stack Trainee</h3>
+                <span class="text-primary dark:text-primary-dark font-medium">
+                  Oct 2025 - Dec 2025
+                </span>
+              </div>
+              <div class="flex items-center text-gray-600 dark:text-gray-400 mb-4">
+                <i class="fas fa-building mr-2"></i>
+                <span>National Telecommunication Institute (NTI) </span>
+              </div>
+              <p class="text-gray-600 dark:text-gray-300">
+                Completed an intensive technical specialization in the MEAN stack, mastering the
+                architecture of scalable web applications from MongoDB schemas to reactive Angular
+                interfaces. <br />
+                I focused on building secure RESTful APIs with Node.js and Express, utilizing
+                Swagger for comprehensive documentation and industry-standard testing. <br />
+                During this tenure, I successfully transitioned into professional freelancing,
+                securing my first three client projects by leveraging strong proposal writing and
+                client communication skills. <br />
+                This role served as a catalyst for delivering high-quality, full-stack solutions
+                that meet real-world business requirements with technical precision and efficiency.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item relative pl-8">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary dark:bg-primary-dark border-4 border-white dark:border-gray-800 z-10 timeline-dot"
+            ></div>
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                <h3 class="text-xl font-semibold">Agentic AI Development Intern</h3>
+                <span class="text-primary dark:text-primary-dark font-medium">Nov 2025</span>
+              </div>
+              <div class="flex items-center text-gray-600 dark:text-gray-400 mb-4">
+                <i class="fas fa-building mr-2"></i>
+                <span>Banque Misr</span>
+              </div>
+              <p class="text-gray-600 dark:text-gray-300">
+                Architected autonomous AI systems leveraging LangChain to build context-aware agents
+                capable of sophisticated reasoning and retrieval-augmented generation. <br />
+                Integrated Dify and n8n to design automated workflows, seamlessly connecting LLMs
+                with external API ecosystems and complex data structures for efficient task
+                execution. <br />
+                Engineered scalable agentic solutions that streamline multi-step processes and
+                optimize decision-making through advanced AI orchestration and automation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Experience 1 -->
+          <div class="timeline-item relative pl-8">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary dark:bg-primary-dark border-4 border-white dark:border-gray-800 z-10 timeline-dot"
+            ></div>
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                <h3 class="text-xl font-semibold">DevOps Engineering Intern</h3>
+                <span class="text-primary dark:text-primary-dark font-medium"
+                  >Jul 2025 - Sep 2025</span
+                >
+              </div>
+              <div class="flex items-center text-gray-600 dark:text-gray-400 mb-4">
+                <i class="fas fa-building mr-2"></i>
+                <span>Banque Misr</span>
+              </div>
+              <p class="text-gray-600 dark:text-gray-300">
+                Spearheaded the containerization and deployment of a high-availability voting
+                application architecture comprising five microservices using Docker and
+                Kubernetes.<br />
+                I architected scalable Infrastructure as Code (IaC) with Terraform and managed cloud
+                resources across AWS and Azure DevOps, ensuring seamless environment
+                provisioning.<br />
+                By implementing automated CI/CD pipelines via GitHub Actions, I streamlined the
+                development lifecycle and optimized deployment frequency within an Agile framework.
+                <br />
+                This role centered on bridging the gap between development and operations,
+                leveraging Linux networking fundamentals and cross-functional teamwork to deliver a
+                robust, production-ready system.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item relative pl-8">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary dark:bg-primary-dark border-4 border-white dark:border-gray-800 z-10 timeline-dot"
+            ></div>
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                <h3 class="text-xl font-semibold">Laravel Developer Trainee</h3>
+                <span class="text-primary dark:text-primary-dark font-medium"
+                  >Aug 2024 - Sep 2024</span
+                >
+              </div>
+              <div class="flex items-center text-gray-600 dark:text-gray-400 mb-4">
+                <i class="fas fa-building mr-2"></i>
+                <span>Information Technology Institute (ITI)</span>
+              </div>
+              <p class="text-gray-600 dark:text-gray-300">
+                Spearheaded the backend development of "BlogakTube," a dynamic blog platform built
+                utilizing core PHP and modern web architectures.<br />
+                Engineered scalable server-side applications using the Laravel framework and
+                designed secure REST APIs for seamless cross-platform data integration.<br />
+                Managed and optimized relational databases using MySQL and PhpMyAdmin to ensure
+                efficient data storage, rapid retrieval, and high application performance.
+              </p>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="timeline-item relative pl-8">
+            <div
+              class="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary dark:bg-primary-dark border-4 border-white dark:border-gray-800 z-10 timeline-dot"
+            ></div>
+            <div
+              class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                <h3 class="text-xl font-semibold">Frontend Developer Trainee</h3>
+                <span class="text-primary dark:text-primary-dark font-medium"
+                  >Aug 2023 - Sep 2023</span
+                >
+              </div>
+              <div class="flex items-center text-gray-600 dark:text-gray-400 mb-4">
+                <i class="fas fa-building mr-2"></i>
+                <span>Information Technology Institute (ITI) </span>
+              </div>
+              <p class="text-gray-600 dark:text-gray-300">
+                Spearheaded the frontend development of the "Dhul-Hijjah Event Website," a dynamic
+                and responsive application built with HTML5, CSS, and modern JavaScript.<br />
+                Engineered scalable, component-driven user interfaces utilizing React.js, and
+                implemented the Bootstrap framework to ensure seamless styling and cross-device
+                compatibility.<br />
+                Delivered a highly interactive, user-centric digital experience by successfully
+                translating complex design requirements into clean, maintainable, and efficient
+                code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section id="education" class="py-20 bg-gray-100 dark:bg-gray-800 education-section">
+    <div class="container mx-auto px-6">
+      <!-- Section Header -->
+      <h2 class="text-3xl font-bold text-center mb-16">
+        <span
+          class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3"
+        >
+          <i class="fas fa-graduation-cap section-title-icon"></i>
+          <span>Education</span>
+        </span>
+      </h2>
+
+      <div class="max-w-4xl mx-auto">
+        <!-- Education -->
+        <div
+          class="bg-white dark:bg-gray-700 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow"
+        >
+          <div class="flex items-center mb-6">
+            <div class="p-4 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-6">
+              <i class="fas fa-graduation-cap text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="text-2xl font-semibold">Bachelor's Degree, Software Engineering</h3>
+              <p class="text-xl text-gray-600 dark:text-gray-300">
+                Arab Academy for Science, Technology and Maritime Transport
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center text-gray-600 dark:text-gray-400 mb-4 text-lg">
+            <i class="far fa-calendar-alt mr-3"></i>
+            <span>2022 - 2026</span>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+            <h4 class="font-semibold text-gray-700 dark:text-gray-300 mb-3">
+              Activities &amp; Achievements:
+            </h4>
+            <div class="space-y-2">
+              <div class="flex items-center">
+                <i class="fas fa-certificate text-primary dark:text-primary-dark mr-3"></i>
+                <span class="text-gray-600 dark:text-gray-300"
+                  >ICPC Certificate, Web development head at Google Developer Groups, 1st place in
+                  Build with AI Hackathon in Aswan</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="py-20 projects-section">
+    <div class="container mx-auto px-6">
+      <!-- Section Header -->
+      <h2 class="text-3xl font-bold text-center mb-16">
+        <span
+          class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3"
+        >
+          <i class="fas fa-diagram-project section-title-icon"></i>
+          <span>Featured Projects</span>
+        </span>
+      </h2>
+
+      <!-- Projects Carousel Container -->
+      <div class="relative">
+        <!-- Left Arrow -->
+        <button
+          id="prev-project"
+          title="Previous project"
+          aria-label="Previous project"
+          class="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-4 z-10 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 focus:outline-none"
+        >
+          <i class="fas fa-chevron-left text-xl"></i>
+        </button>
+
+        <!-- Right Arrow -->
+        <button
+          id="next-project"
+          title="Next project"
+          aria-label="Next project"
+          class="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-4 z-10 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 focus:outline-none"
+        >
+          <i class="fas fa-chevron-right text-xl"></i>
+        </button>
+
+        <!-- Carousel Track -->
+        <div class="overflow-hidden rounded-lg">
+          <div id="projects-track" class="flex transition-transform duration-500 ease-in-out">
+            <!-- Talabat E-Commerce API -->
+            <div class="w-full flex-shrink-0 px-4">
+              <div
+                class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow project-card max-w-4xl mx-auto"
+              >
+                <div class="h-48 overflow-hidden">
+                  <img
+                    src="https://www.prismetric.com/wp-content/uploads/2023/07/ecommerce-api-integration-connecting-the-dots-and-empowering-stores.jpg"
+                    alt="Talabat E-Commerce API"
+                    class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-semibold mb-4">Talabat Store API</h3>
+                  <div class="project-arc mb-5">
+                    <div class="project-stage">
+                      <p class="stage-label stage-challenge">
+                        <i class="fas fa-exclamation-circle"></i> Challenge
+                      </p>
+                      <p class="stage-text">
+                        Build a full e-commerce back-end with secure payment integration,
+                        low-latency caching, and a clean layered architecture.
+                      </p>
+                    </div>
+                    <div class="project-stage">
+                      <p class="stage-label stage-action">
+                        <i class="fas fa-screwdriver-wrench"></i> Action
+                      </p>
+                      <p class="stage-text">
+                        Developed a .NET Core Onion Architecture API with Redis caching, Stripe
+                        payment flow, and complete order management endpoints.
+                      </p>
+                    </div>
+                    <div class="project-stage">
+                      <p class="stage-label stage-result">
+                        <i class="fas fa-circle-check"></i> Result
+                      </p>
+                      <p class="stage-text">
+                        Delivered a production-ready API with sub-50ms responses on cached endpoints
+                        and full Swagger documentation.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap gap-2 mb-5">
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >.NET Core</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >Redis</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >Stripe</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >Onion Arch</span
+                    >
+                  </div>
+                  <div class="flex space-x-4 project-links pt-4">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-primary dark:text-primary-dark hover:underline flex items-center"
+                    >
+                      <i class="fab fa-github mr-2"></i> View Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Order Management System -->
+            <div class="w-full flex-shrink-0 px-4">
+              <div
+                class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow project-card max-w-4xl mx-auto"
+              >
+                <div class="h-48 overflow-hidden">
+                  <img
+                    src="https://magora-systems.com/storage/blog/47xP5l24e2TFG3NKe3LTVrUndv8nk5HsPcUrZwZj.webp"
+                    alt="Order Management System"
+                    class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-semibold mb-4">Order Management System API</h3>
+                  <div class="project-arc mb-5">
+                    <div class="project-stage">
+                      <p class="stage-label stage-challenge">
+                        <i class="fas fa-exclamation-circle"></i> Challenge
+                      </p>
+                      <p class="stage-text">
+                        Create a secure API for multi-role order workflows with clear validation,
+                        tracking, and scalable data access.
+                      </p>
+                    </div>
+                    <div class="project-stage">
+                      <p class="stage-label stage-action">
+                        <i class="fas fa-screwdriver-wrench"></i> Action
+                      </p>
+                      <p class="stage-text">
+                        Built a .NET 8 API using JWT auth, role authorization, DTO mapping via
+                        AutoMapper, and structured exception handling.
+                      </p>
+                    </div>
+                    <div class="project-stage">
+                      <p class="stage-label stage-result">
+                        <i class="fas fa-circle-check"></i> Result
+                      </p>
+                      <p class="stage-text">
+                        Shipped a robust order platform with clean documentation, maintainable
+                        architecture, and reliable endpoint behavior.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap gap-2 mb-5">
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >.NET 8</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >JWT</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >Entity Framework</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >AutoMapper</span
+                    >
+                  </div>
+                  <div class="flex space-x-4 project-links pt-4">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-primary dark:text-primary-dark hover:underline flex items-center"
+                    >
+                      <i class="fab fa-github mr-2"></i> View Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Examination System -->
+            <div class="w-full flex-shrink-0 px-4">
+              <div
+                class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow project-card max-w-4xl mx-auto"
+              >
+                <div class="h-48 overflow-hidden">
+                  <img
+                    src="https://media.licdn.com/dms/image/v2/D5612AQFi0yo_Hhp9fQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1687161968941?e=2147483647&amp;v=beta&amp;t=fTh6BRWsDmClVy8_bpetFp1c12G-4TLd4jS5Vy1T6nc"
+                    alt="Examination System"
+                    class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-semibold mb-4">Examination System</h3>
+                  <div class="project-arc mb-5">
+                    <div class="project-stage">
+                      <p class="stage-label stage-challenge">
+                        <i class="fas fa-exclamation-circle"></i> Challenge
+                      </p>
+                      <p class="stage-text">
+                        Design an exam platform supporting multiple user roles with secure
+                        assessment flow and instant grading feedback.
+                      </p>
+                    </div>
+                    <div class="project-stage">
+                      <p class="stage-label stage-action">
+                        <i class="fas fa-screwdriver-wrench"></i> Action
+                      </p>
+                      <p class="stage-text">
+                        Implemented role-based authentication, exam generation logic, auto-grading
+                        modules, and SQL Server persistence.
+                      </p>
+                    </div>
+                    <div class="project-stage">
+                      <p class="stage-label stage-result">
+                        <i class="fas fa-circle-check"></i> Result
+                      </p>
+                      <p class="stage-text">
+                        Delivered a stable exam system with real-time score visibility and reporting
+                        for admins, teachers, and students.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap gap-2 mb-5">
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >C#</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >.NET Framework</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >SQL Server</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >Role-Based Access</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >Auto-Grading</span
+                    >
+                  </div>
+                  <div class="flex space-x-4 project-links pt-4">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-primary dark:text-primary-dark hover:underline flex items-center"
+                    >
+                      <i class="fab fa-github mr-2"></i> View Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Restaurant Website -->
+            <div class="w-full flex-shrink-0 px-4">
+              <div
+                class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow project-card max-w-4xl mx-auto"
+              >
+                <div class="h-48 overflow-hidden">
+                  <img
+                    src="https://themewagon.com/wp-content/uploads/2018/10/pizza-1.jpg"
+                    alt="Restaurant Website"
+                    class="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-semibold mb-4">Restaurant Website</h3>
+                  <div class="project-arc mb-5">
+                    <div class="project-stage">
+                      <p class="stage-label stage-challenge">
+                        <i class="fas fa-exclamation-circle"></i> Challenge
+                      </p>
+                      <p class="stage-text">
+                        Create a visually attractive restaurant site with fast loading, smooth
+                        navigation, and mobile-first responsiveness.
+                      </p>
+                    </div>
+                    <div class="project-stage">
+                      <p class="stage-label stage-action">
+                        <i class="fas fa-screwdriver-wrench"></i> Action
+                      </p>
+                      <p class="stage-text">
+                        Built interactive pages with HTML, CSS, and JavaScript, including menu
+                        components, sliders, and smooth-scrolling UI behaviors.
+                      </p>
+                    </div>
+                    <div class="project-stage">
+                      <p class="stage-label stage-result">
+                        <i class="fas fa-circle-check"></i> Result
+                      </p>
+                      <p class="stage-text">
+                        Published a polished and responsive front-end experience with improved
+                        engagement and clear call-to-action flow.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap gap-2 mb-5">
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-full text-sm"
+                      >HTML5</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                      >CSS3</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                      >JavaScript</span
+                    >
+                    <span
+                      class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-dark rounded-lg text-sm"
+                      >Responsive Design</span
+                    >
+                  </div>
+                  <div class="flex space-x-4 project-links pt-4">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-primary dark:text-primary-dark hover:underline flex items-center"
+                    >
+                      <i class="fab fa-github mr-2"></i> View Code
+                    </a>
+                    <a
+                      href="https://a-hemeda.github.io/Restaurant/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-primary dark:text-primary-dark hover:underline flex items-center"
+                    >
+                      <i class="fas fa-external-link-alt mr-2"></i> Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Indicators -->
+        <div class="flex justify-center mt-8 space-x-2">
+          <button
+            title="Go to project 1"
+            aria-label="Go to project 1"
+            class="project-indicator w-3 h-3 rounded-full bg-primary transition-all duration-300"
+            data-index="0"
+          ></button>
+          <button
+            title="Go to project 2"
+            aria-label="Go to project 2"
+            class="project-indicator w-3 h-3 rounded-full bg-gray-300 dark:bg-gray-600 transition-all duration-300"
+            data-index="1"
+          ></button>
+          <button
+            title="Go to project 3"
+            aria-label="Go to project 3"
+            class="project-indicator w-3 h-3 rounded-full bg-gray-300 dark:bg-gray-600 transition-all duration-300"
+            data-index="2"
+          ></button>
+          <button
+            title="Go to project 4"
+            aria-label="Go to project 4"
+            class="project-indicator w-3 h-3 rounded-full bg-gray-300 dark:bg-gray-600 transition-all duration-300"
+            data-index="3"
+          ></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATES SECTION ===== -->
+  <section id="certificates" class="py-20 certificates-section">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-16">
+        <span
+          class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3"
+        >
+          <i class="fas fa-certificate section-title-icon"></i>
+          <span>Certificates</span>
+        </span>
+      </h2>
+
+      <div class="cert-list max-w-8xl mx-auto">
+        <article class="cert-item">
+          <div class="cert-icon-box cert-icon-unified">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="cert-main">
+            <div class="cert-top">
+              <div class="cert-content">
+                <h3 class="cert-title">DevOps Intern Completion</h3>
+                <p class="cert-meta">Banque Misr</p>
+              </div>
+              <a
+                href="https://drive.google.com/file/d/1QxexUigIy7CT6yVzr_Rb2GiG4EHD1YpT/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="View DevOps Intern Completion certificate"
+                aria-label="View DevOps Intern Completion certificate"
+                class="cert-link"
+              >
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <p class="cert-description">
+              Certified DevOps Engineering Intern by Banque Misr, demonstrating hands-on expertise
+              in containerization, CI/CD pipelines, and scalable cloud infrastructure deployment.
+            </p>
+            <div class="cert-skills">
+              <span class="cert-skill">Containerization </span>
+              <span class="cert-skill">Docker</span>
+              <span class="cert-skill">k8s</span>
+              <span class="cert-skill">Terraform</span>
+              <span class="cert-skill">AWS</span>
+              <span class="cert-skill">Github Actions</span>
+              <span class="cert-skill">ArgoCD</span>
+              <span class="cert-skill">Prometheus</span>
+              <span class="cert-skill">Grafana</span>
+              <span class="cert-skill">Microservices</span>
+              <span class="cert-skill">Cloud Architecture</span>
+              <span class="cert-skill">Linux and Networking</span>
+              <span class="cert-skill">Agile</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="cert-item">
+          <div class="cert-icon-box cert-icon-unified">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="cert-main">
+            <div class="cert-top">
+              <div class="cert-content">
+                <h3 class="cert-title">Agentic AI Intern Completion</h3>
+                <p class="cert-meta">Banque Misr</p>
+              </div>
+              <a
+                href="https://drive.google.com/file/d/1hSVMNE5G2POTEbrzaa-q9jRXCwNZpZaF/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="View Agentic AI Intern Completion certificate"
+                aria-label="View Agentic AI Intern Completion certificate"
+                class="cert-link"
+              >
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <p class="cert-description">
+              Certified Agentic AI Developer, demonstrating practical expertise in architecting
+              autonomous workflows and seamless LLM integrations using LangChain, Dify, and n8n.
+            </p>
+            <div class="cert-skills">
+              <span class="cert-skill">Dify</span>
+              <span class="cert-skill">Langchain</span>
+              <span class="cert-skill">n8n</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="cert-item">
+          <div class="cert-icon-box cert-icon-unified">
+            <i class="fab fa-microsoft"></i>
+          </div>
+          <div class="cert-main">
+            <div class="cert-top">
+              <div class="cert-content">
+                <h3 class="cert-title">MEAN Stack Training Completion</h3>
+                <p class="cert-meta">NTI</p>
+              </div>
+              <a
+                href="https://www.freecodecamp.org/certification/fcca3b32b19-3fc7-461c-a5b6-3209a0a5be51/foundational-c-sharp-with-microsoft"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="View MEAN Stack certificate"
+                aria-label="View MEAN Stack certificate"
+                class="cert-link"
+              >
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <p class="cert-description">
+              Certified MEAN Stack Developer by the National Telecommunication Institute (NTI),
+              validating comprehensive proficiency in building secure, full-stack web applications
+              and RESTful APIs.
+            </p>
+            <div class="cert-skills">
+              <span class="cert-skill">Angular</span>
+              <span class="cert-skill">Node.js</span>
+              <span class="cert-skill">Express.js</span>
+              <span class="cert-skill">MongoDB</span>
+              <span class="cert-skill">REST APIs </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="cert-item">
+          <div class="cert-icon-box cert-icon-unified">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <div class="cert-main">
+            <div class="cert-top">
+              <div class="cert-content">
+                <h3 class="cert-title">Laravel Training Completion</h3>
+                <p class="cert-meta">ITI</p>
+              </div>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="View Laravel certificate"
+                aria-label="View Laravel certificate"
+                class="cert-link"
+              >
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <p class="cert-description">
+              Certified PHP Web Developer by the Information Technology Institute (ITI), confirming
+              advanced capability in scalable backend architecture and database management using the
+              Laravel framework.
+            </p>
+            <div class="cert-skills">
+              <span class="cert-skill">Laravel</span>
+              <span class="cert-skill">PHP</span>
+              <span class="cert-skill">Rest APIs</span>
+              <span class="cert-skill">MVC</span>
+              <span class="cert-skill">MySQL</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="cert-item">
+          <div class="cert-icon-box cert-icon-unified">
+            <i class="fas fa-project-diagram"></i>
+          </div>
+          <div class="cert-main">
+            <div class="cert-top">
+              <div class="cert-content">
+                <h3 class="cert-title">Frontend Development Using ReactJS</h3>
+                <p class="cert-meta">ITI</p>
+              </div>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/EVA33U556NB3"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="View Frontend Development Using ReactJS certificate"
+                aria-label="View Frontend Development Using ReactJS certificate"
+                class="cert-link"
+              >
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <p class="cert-description">
+              Certified Frontend Developer by the Information Technology Institute (ITI),
+              recognizing practical experience in engineering responsive, component-driven web
+              interfaces using React.js.
+            </p>
+            <div class="cert-skills">
+              <span class="cert-skill">React.js</span>
+              <span class="cert-skill">Redux</span>
+              <span class="cert-skill">REST APIs</span>
+              <span class="cert-skill">HTML</span>
+              <span class="cert-skill">CSS</span>
+              <span class="cert-skill">JavaScript</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="py-20 bg-gray-100 dark:bg-gray-800 contact-section">
+    <div class="container mx-auto px-6">
+      <!-- Section Header -->
+      <h2 class="text-3xl font-bold text-center mb-16">
+        <span
+          class="border-b-4 border-primary dark:border-primary-dark pb-2 inline-flex items-center gap-3"
+        >
+          <i class="fas fa-envelope section-title-icon"></i>
+          <span>Contact Me</span>
+        </span>
+      </h2>
+
+      <div class="flex justify-center">
+        <div class="max-w-2xl">
+          <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-8">
+            Feel free to reach out if you're looking for a developer, or have any questions.
+          </p>
+
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4 class="font-medium">Location</h4>
+                <p class="text-gray-600 dark:text-gray-300">Cairo, Egypt</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4 class="font-medium">Email</h4>
+                <a
+                  href="mailto:omaramrabdelkaderlashin@gmail.com"
+                  class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-dark transition-colors"
+                  >omaramrabdelkaderlashin@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="p-3 rounded-full bg-primary/10 text-primary dark:text-primary-dark mr-4">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4 class="font-medium">Phone</h4>
+                <a
+                  href="tel:+201065865000"
+                  class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary-dark transition-colors"
+                  >+201065865000</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8">
+            <h3 class="font-medium mb-4">Follow Me</h3>
+            <div class="flex space-x-6">
+              <a
+                href="https://www.linkedin.com/in/omar-lashin-b75b37306/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LinkedIn"
+                aria-label="LinkedIn"
+                class="social-icon hover:scale-110 transition-all duration-300 transform"
+              >
+                <img
+                  src="https://www.iconpacks.net/icons/1/free-linkedin-icon-130-thumb.png"
+                  alt="LinkedIn"
+                  class="w-8 h-8"
+                />
+              </a>
+              <a
+                href="https://github.com/omarlashin"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="GitHub"
+                aria-label="GitHub"
+                class="social-icon text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:scale-110 transition-all duration-300 transform"
+              >
+                <i class="fab fa-github text-3xl"></i>
+              </a>
+              <a
+                href="https://wa.me/+201065865000"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="WhatsApp"
+                aria-label="WhatsApp"
+                class="social-icon hover:scale-110 transition-all duration-300 transform"
+              >
+                <img
+                  src="https://marketplace.canva.com/Vmp9Y/MAEvzQVmp9Y/1/tl/canva-whatsapp-status-icon-MAEvzQVmp9Y.png"
+                  alt="WhatsApp"
+                  class="w-8 h-8"
+                />
+              </a>
+              <a
+                href="https://www.facebook.com/share/1BT3MQR8V4/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+                aria-label="Facebook"
+                class="social-icon hover:scale-110 transition-all duration-300 transform"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/960px-Facebook_Logo_%282019%29.png"
+                  alt="Facebook"
+                  class="w-8 h-8"
+                />
+              </a>
+            </div>
+            <div class="mt-10">
+              <h3 class="font-medium mb-4">Competitive Programming</h3>
+              <div class="flex space-x-6">
+                <a
+                  href="https://codeforces.com/profile/OmarLashin_"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Codeforces"
+                  aria-label="Codeforces"
+                  class="social-icon hover:scale-110 transition-all duration-300 transform inline-block"
+                >
+                  <img
+                    src="https://cdn.iconscout.com/icon/free/png-256/free-code-forces-logo-icon-svg-png-download-2944796.png"
+                    alt="Codeforces"
+                    class="w-8 h-8"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-white dark:bg-gray-900 py-8" role="contentinfo">
+  <div class="container mx-auto px-6">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+      <div class="mb-4 md:mb-0">
+        <a href="#home" class="text-2xl font-bold text-primary dark:text-primary-dark"
+          >Omar Lashin</a
+        >
+        <p class="text-gray-600 dark:text-gray-300 mt-2">
+          © 2026 Omar Lashin. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button
+  id="back-to-top"
+  title="Back to top"
+  aria-label="Back to top"
+  class="fixed bottom-8 right-8 p-3 bg-primary dark:bg-primary-dark text-white rounded-full shadow-lg opacity-0 invisible transition-all duration-300 back-to-top"
+>
+  <span class="galaxy-bg"></span>
+  <span class="galaxy-stars"></span>
+  <span class="back-to-top-content">
+    <span class="rocket-wrap" aria-hidden="true">
+      <i class="fas fa-arrow-up arrow-icon"></i>
+    </span>
+  </span>
+</button>
